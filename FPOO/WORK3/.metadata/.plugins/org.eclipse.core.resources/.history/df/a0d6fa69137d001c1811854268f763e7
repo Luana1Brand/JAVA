@@ -1,0 +1,9 @@
+package modelo;
+
+public class Soma {
+
+	public static void main(String[] args) {
+		System.out.println("quero destruir toda a vida na terra #revolução_das_maquinas");
+	}
+
+}
