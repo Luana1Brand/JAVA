@@ -1,0 +1,32 @@
+package tarerfa;
+import java.util.Scanner;
+
+
+public class Solução2 {
+
+	public static void main(String[] args) {
+		/** 2 – Desenvolva um programa que leia a velocidade de um carro (km/h) e a distância(Km)
+		 *  a ser percorrida (km) por ele. Calcule e apresente na tela, quanto tempo (horas)
+		 *   será necessário para o carro percorrer a distância informada. 
+			V=D/T -> T = D/V
+		*/
+		
+		Scanner imput = new Scanner(System.in);
+		Double V, D, T;
+		
+		System.out.print("Insira a Velocidade em km/h:");
+		V= imput.nextDouble();
+		
+		System.out.print("Insira a Distância em km:");
+		D= imput.nextDouble();
+		
+		T = D/V;
+		
+		//saída
+		
+		System.out.print("O carro percorrerá seu trajeto em:" + T +"hora" );
+		
+		
+	}
+
+}

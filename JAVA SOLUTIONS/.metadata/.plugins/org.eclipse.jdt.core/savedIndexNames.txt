@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\pudim\Logica\JAVA SOLUTIONS\.metadata\.plugins\org.eclipse.jdt.core
+3418403236.index
+934909033.index
